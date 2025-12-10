@@ -314,7 +314,7 @@ export default function NutrientSolutionCalculator() {
             <h3 className="font-semibold">How to get exact minimal-cost mixes (recommended)</h3>
             <ol className="list-decimal ml-5 mt-2">
               <li>Collect product datasheets: exact % element, water of crystallization, and price per kg.</li>
-              <li>Use a small LP solver (glpk.js, OR-Tools WASM or a backend endpoint) with objective minimize cost, constraints: delivered_ions >= targets, x >= 0.</li>
+              <li>Use a small LP solver (glpk.js, OR-Tools WASM or a backend endpoint) with objective minimize cost, constraints: delivered_ions &gt;= targets, x &gt;= 0.</li>
               <li>If you want, I can produce a ready-to-deploy serverless function (Node + glpk.js) or a WASM-based frontend bundle that solves LPs exactly in-browser.</li>
             </ol>
           </div>
