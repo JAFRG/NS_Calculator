@@ -1,1 +1,2 @@
-export default function App(){return <div className='p-4'>Nutrient Solution Builder</div>;}
+import NutrientSolutionCalculator from './components/NutrientSolutionCalculator';
+export default function App(){ return <NutrientSolutionCalculator/>;}

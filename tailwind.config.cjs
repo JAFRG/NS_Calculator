@@ -1,1 +1,1 @@
-module.exports={ content:['./index.html','./src/**/*.{js,jsx}'], theme:{}, plugins:[] }
+module.exports={content:['./index.html','./src/**/*.{js,jsx}'],theme:{},plugins:[]}
